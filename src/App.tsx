@@ -2,6 +2,8 @@ import { useState } from "react";
 import Card from "./components/Card";
 
 function App() {
+  const [open, setopen] = useState(false);
+
   return (
     <div className=" flex flex-col justify-center items-center h-full gap-8">
       <span id="title" className="text-[#c59d5f] text-4xl">
