@@ -15,3 +15,6 @@ body {
 #title {
   font-family: "Great Vibes, cursive",sans-serif;
 }
+.hidetext{
+  display: none;
+}
