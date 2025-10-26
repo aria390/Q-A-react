@@ -8,38 +8,6 @@ function App() {
     card3: false,
   });
 
-  // const handleGroupOpenCard = () => {
-  //   if (openCards.card1) {
-  //     setOpenCards((prev) => {
-  //       return {
-  //         ...prev,
-  //         card2: false,
-  //         card3: false,
-  //       };
-  //     });
-  //   } else if (openCards.card2) {
-  //     setOpenCards((prev) => {
-  //       return {
-  //         ...prev,
-  //         card1: false,
-  //         card3: false,
-  //       };
-  //     });
-  //   } else {
-  //     setOpenCards((prev) => {
-  //       return {
-  //         ...prev,
-  //         card1: false,
-  //         card2: false,
-  //       };
-  //     });
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   handleGroupOpenCard();
-  // }, []);
-
   return (
     <div className=" flex flex-col justify-center items-center h-full gap-8">
       <span id="title" className="text-[#c59d5f] text-4xl">
